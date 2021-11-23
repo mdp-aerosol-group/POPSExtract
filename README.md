@@ -21,7 +21,7 @@ Conda.add(["numpy", "pandas"])
 
 Place the files from the POPS SD card in a directory and convert using the ```file2histogram``` function. The histogram will be computed for a specified duration, in the example below 1 min. 
 
-```
+```julia
 using POPSExtract
 using Dates
 using CSV
