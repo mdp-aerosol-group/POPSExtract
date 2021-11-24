@@ -25,6 +25,7 @@ Place the files from the POPS SD card in a directory and convert using the ```fi
 using POPSExtract
 using Dates
 using CSV
+using DataFrames
 
 path = "F20211122/"
 files = readdir(path)
